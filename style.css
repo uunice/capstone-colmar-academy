@@ -61,7 +61,7 @@ a {
 
   /*course section*/
 
-  .course .row {
+  .course {
     display: flex;
     justify-content: center;
     background-color: white;
@@ -135,13 +135,7 @@ a {
 
   /*course section*/
 
-  .course .row {
+  .course {
     background-color: rgb(245, 245, 245);
-  }
-
-  .course-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }
