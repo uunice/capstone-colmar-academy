@@ -85,7 +85,7 @@ a {
   /*thesis section*/
   .thesis h3,
   .thesis p,
-  .thesis supporting-content {
+  .thesis .supporting-content {
     display: none;
   }
 
