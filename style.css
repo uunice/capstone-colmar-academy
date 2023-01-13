@@ -1,0 +1,147 @@
+/* General */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 500px) {
+  /* header */
+
+  header .desktop {
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  /*information section*/
+
+  .maincontent {
+    display: none;
+  }
+
+  .desktop-information-img {
+    display: none;
+  }
+
+  .media-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /*course section*/
+
+  .course .row {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .course h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .course .card {
+    background-color: rgb(200, 200, 200);
+  }
+
+  .course img,
+  .course h4,
+  .course p {
+    display: none;
+  }
+
+  /*thesis section*/
+  .thesis h3,
+  .thesis p,
+  .supporting-content {
+    display: none;
+  }
+
+  /*footer*/
+
+  footer a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 501px) {
+  /* Header */
+
+  header .desktop {
+    display: flex;
+    align-items: center;
+  }
+
+  header .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  header .logo img {
+    margin-right: 16px;
+  }
+
+  header li {
+    display: inline;
+    padding-right: 16px;
+  }
+
+  header li:last-child {
+    padding-right: 0;
+  }
+
+  header .mobile {
+    display: none;
+  }
+
+  /*information section*/
+
+  .mobile-information-img {
+    display: none;
+  }
+
+  /*course section*/
+
+  .course .row {
+    background-color: rgb(245, 245, 245);
+  }
+
+  .course-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
